@@ -3,7 +3,16 @@ const fs = require("fs");
 const licenses = require("./js/licenses.js");
 
 const generateReadme = (answers) => 
-    `# ${answers.title}
+    `# ${answers.title} ${licenses.getBadge(answers.license)}
+
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [How to Contribute](#how-to-contribute)
+* [Tests](#tests)
+* [Contact](#contact)
 
 ## Description
 ${answers.description}
@@ -15,7 +24,7 @@ ${answers.installation}
 ${answers.usage}
 
 ## License 
-${licenses.getBadge(answers.license)}
+This project is covered under the ${answers.license}: ${licenses.getBadge(answers.license)}
 
 ## How to Contribute
 ${answers.contributing}

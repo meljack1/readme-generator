@@ -21,7 +21,11 @@ ${licenses.getBadge(answers.license)}
 ${answers.contributing}
 
 ## Tests
-${answers.tests}`;
+${answers.tests}
+
+## Contact
+Email: ${answers.email}\n
+GitHub: [${answers.github}](https://github.com/${answers.github}/)`;
 
 
 inquirer

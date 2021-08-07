@@ -5,9 +5,9 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [How to Contribute](#how-to-contribute)
 * [Tests](#tests)
 * [Contact](#contact)
+* [Credits](#credits)
 
 ## Description
 A good readme generator utilising the JavaScript inquirer package, run in the command line using node.js. 

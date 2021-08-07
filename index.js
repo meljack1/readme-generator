@@ -32,7 +32,8 @@ ${answers.contributing}
 ## Tests
 ${answers.tests}
 
-## Contact
+## Questions
+Please feel free to contact me through GitHub or email, using the following details: \n
 Email: ${answers.email}\n
 GitHub: [${answers.github}](https://github.com/${answers.github}/)`;
 

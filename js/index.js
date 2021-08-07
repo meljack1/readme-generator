@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs"); 
+const licenses = require("./licenses.js");
 
 const generateReadme = (answers) => 
     `# ${answers.title}
@@ -58,6 +59,7 @@ inquirer
     {
         type: 'list',
         message: 'License: Select the license which covers your project.',
+        choices: licenses.licenseOptions,
         name: 'license',
     },
     {
@@ -73,7 +75,7 @@ inquirer
   ])
   .then((response) => {
     const errorFunction = (err) => err ? console.error(err) : console.log('Commit logged!');
-    fs.writeFile('./portfolio/index.html', generateReadme(response), errorFunction);
+    fs.writeFile('../readme/README.md', generateReadme(response), errorFunction);
   }
   );
 

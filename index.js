@@ -48,6 +48,10 @@ inquirer
         type: 'input',
         message: 'What is your email?',
         name: 'email',
+        validate: function(email)
+        {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
     },    
     {
         type: 'input',

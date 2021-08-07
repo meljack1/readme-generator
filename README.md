@@ -28,6 +28,11 @@ Run the following command from the terminal:
 
 Answer each prompt in turn. Your readme will be stored in the ```./readme-generator/readme``` folder.
 
+Click image below for a video tutorial:
+[![Screenshot of tutorial video](./assets/screenshot.PNG)](https://drive.google.com/file/d/18F8296pA3m1KFPlM-9r6TCkiX3sMYcvS/preview)
+
+Example shown in [EXAMPLE.md](./EXAMPLE.md)
+
 ## License 
 This project is covered under the MIT License: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
